@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Listen on UDP port 8080
-	addr := "0.0.0.0:8080"
+	addr := "0.0.0.0:53"
 	conn, err := net.ListenPacket("udp", addr)
 	if err != nil {
 		fmt.Println("Error starting server:", err)
